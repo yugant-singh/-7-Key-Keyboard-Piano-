@@ -1,5 +1,5 @@
 # 🎹 7-Key Keyboard Piano (HTML • CSS • JavaScript)
-
+# Live-Demo - https://7-key-keyboard-piano.vercel.app/
 This project is a simple **7-key virtual piano** built using **pure HTML, CSS, and JavaScript**.  
 You can play the piano using:
 
