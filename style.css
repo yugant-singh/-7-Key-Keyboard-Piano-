@@ -1,0 +1,33 @@
+body {
+font-family: sans-serif;
+background: #222;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px;
+}
+h1 {
+margin-bottom: 20px;
+}
+.piano {
+display: flex;
+}
+.key {
+width: 80px;
+height: 200px;
+border: 1px solid #000;
+background: white;
+border-radius: 6px;
+margin: 3px;
+cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+padding-bottom: 10px;
+user-select: none;
+transition: 0.1s;
+}
+.key.active {
+background: #ddd;
+transform: translateY(3px);
+}
